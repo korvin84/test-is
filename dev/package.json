@@ -1,0 +1,46 @@
+{
+  "name": "react1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "IE 10"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "css-loader": "^1.0.0",
+    "fibers": "^3.0.0",
+    "file-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "napa": "^3.0.0",
+    "resolve-url-loader": "^2.3.0",
+    "sass": "^1.14.2",
+    "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^2.0.1"
+  },
+  "scripts": {
+    "build": "webpack -p --config ./webpack/webpack.config.js --display-error-details",
+    "watch": "webpack -d --watch --config ./webpack/webpack.config.js --display-error-details",
+    "install": "napa"
+  },
+  "napa": {
+    "waitMe": "git+https://github.com/vadimsva/waitMe"
+  },
+  "author": "",
+  "license": "ISC"
+}

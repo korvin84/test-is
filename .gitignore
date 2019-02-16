@@ -1,0 +1,5 @@
+/logs
+/.idea
+/dev/node_modules
+/dev/package-lock.json
+/public/assets

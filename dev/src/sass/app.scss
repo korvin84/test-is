@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+//vars
+@import "include/vars";
+
+//node_modules
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~waitMe/waitMe.css";
+
+//mixins
+@import "include/mixins";
+
+//general
+@import "app/base";

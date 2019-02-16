@@ -1,0 +1,15 @@
+@mixin centerX {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin centerY {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin cancelCenter {
+  top: auto !important;
+  left: auto !important;
+  transform: none !important;
+}
